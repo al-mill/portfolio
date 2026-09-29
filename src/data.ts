@@ -114,7 +114,7 @@ export const adTechPillars: AdTechPillar[] = [
 	{
 		title: 'Traffic quality',
 		body: 'Invalid-traffic investigations that separate real signal from noise, plus the analytics to prove a fix worked.',
-		tags: ['IVT analysis', 'ads.txt & sellers.json', 'Assertive Yield', 'Yield analytics', 'GA4'],
+		tags: ['IVT analysis', 'Engaged-user algorithms', 'ads.txt & sellers.json', 'Assertive Yield', 'Yield analytics', 'GA4'],
 	},
 ];
 
