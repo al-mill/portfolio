@@ -403,11 +403,11 @@ export default function AdTech() {
 					</div>
 					<div>
 						<dt>Fill rate</dt>
-						<dd>{served.length ? `${Math.round((filled.length / served.length) * 100)}%` : '—'}</dd>
+						<dd>{served.length ? `${Math.round((filled.length / served.length) * 100)}%` : '-'}</dd>
 					</div>
 					<div>
 						<dt>Avg eCPM</dt>
-						<dd>{filled.length ? money(revenue / filled.length) : '—'}</dd>
+						<dd>{filled.length ? money(revenue / filled.length) : '-'}</dd>
 					</div>
 					<div>
 						<dt>Bots blocked</dt>

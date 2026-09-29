@@ -38,7 +38,7 @@ export default function Hero() {
 						animate={{ opacity: 1, y: 0 }}
 						transition={{ delay: 0.1 }}
 					>
-						Oh hey there —
+						Oh hey there,
 					</motion.p>
 					<motion.h1
 						className='hero-name'
@@ -67,8 +67,8 @@ export default function Hero() {
 						animate={{ opacity: 1 }}
 						transition={{ delay: 1 }}
 					>
-						Brewer turned software engineer. I build the whole stack — React front-ends,
-						Node and Python services, cloud infrastructure — and the ad tech that keeps
+						Brewer turned software engineer. I build the whole stack (React front-ends,
+						Node and Python services, cloud infrastructure) and the ad tech that keeps
 						publishers in business: header bidding, ad serving, consent and traffic quality.
 					</motion.p>
 					<motion.div

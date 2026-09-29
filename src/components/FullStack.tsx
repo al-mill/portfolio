@@ -173,7 +173,7 @@ export default function FullStack() {
 							<p>
 								~ {freq.toFixed(1)} FM · nothing but static ~
 								<br />
-								Keep turning — next up is {nearest.label}.
+								Keep turning. Next up is {nearest.label}.
 							</p>
 						</motion.div>
 					)}

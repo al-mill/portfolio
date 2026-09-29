@@ -26,7 +26,7 @@ export const stations: Station[] = [
 		id: 'frontend',
 		freq: 90.1,
 		label: 'Front-end FM',
-		tagline: 'Interfaces that feel as good as they look — fast, accessible, on-brand.',
+		tagline: 'Interfaces that feel as good as they look: fast, accessible, on-brand.',
 		skills: [
 			{ name: 'React', level: 10 },
 			{ name: 'Next.js', level: 10 },
@@ -82,7 +82,7 @@ export const stations: Station[] = [
 		id: 'craft',
 		freq: 106.9,
 		label: 'The Craft',
-		tagline: 'How the work gets done — tested, reviewed and shipped as a team.',
+		tagline: 'How the work gets done: tested, reviewed and shipped as a team.',
 		skills: [
 			{ name: 'pnpm / nx monorepos', level: 8 },
 			{ name: 'Playwright & Jest', level: 8 },
