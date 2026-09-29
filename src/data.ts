@@ -1,8 +1,6 @@
 import wildshoot from './assets/wildshoot.svg';
 import whatsbrewing from './assets/whatsbrewing.jpg';
 import hungrydev from './assets/hungrydev.svg';
-import interviewer from './assets/interviewer.jpg';
-import jungle from './assets/jungle.jpg';
 
 export const links = {
 	github: 'https://github.com/al-mill',
@@ -159,21 +157,5 @@ export const projects: Project[] = [
 		stack: ['Vanilla JS', 'HTML', 'CSS'],
 		demo: 'https://the-hungry-dev.netlify.app',
 		repo: 'https://github.com/al-mill/the.hungry.dev',
-	},
-	{
-		title: 'Interviewer',
-		emoji: '📆',
-		kind: 'Scheduler',
-		image: interviewer,
-		blurb: 'A front-end focused app for booking interviews, tested with Storybook and Jest.',
-		stack: ['React', 'Storybook', 'Jest'],
-	},
-	{
-		title: 'Jungle',
-		emoji: '🌱',
-		kind: 'E-commerce',
-		image: jungle,
-		blurb: 'A mini e-commerce store built with Ruby on Rails and Active Record.',
-		stack: ['Rails', 'Active Record', 'PostgreSQL'],
 	},
 ];
