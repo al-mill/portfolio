@@ -99,7 +99,7 @@ export const adTechPillars: AdTechPillar[] = [
 	{
 		title: 'Header bidding',
 		body: 'Prebid.js wrappers, bidder adapters, timeouts and price granularity tuned for yield without tanking page speed.',
-		tags: ['Prebid.js', 'Prebid Server', 'OpenRTB', 'Amazon TAM', 'Price buckets', 'Lazy load & refresh'],
+		tags: ['Prebid.js', 'Assertive Yield', 'Prebid Server', 'OpenRTB', 'Amazon TAM', 'Price buckets', 'Lazy load & refresh'],
 	},
 	{
 		title: 'Ad serving',
@@ -114,7 +114,7 @@ export const adTechPillars: AdTechPillar[] = [
 	{
 		title: 'Traffic quality',
 		body: 'Invalid-traffic investigations that separate real signal from noise, plus the analytics to prove a fix worked.',
-		tags: ['IVT analysis', 'Engaged-user algorithms', 'ads.txt & sellers.json', 'Assertive Yield', 'Yield analytics', 'GA4'],
+		tags: ['IVT analysis', 'Engaged-user algorithms', 'ads.txt & sellers.json', 'Yield analytics', 'GA4'],
 	},
 ];
 
