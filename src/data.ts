@@ -99,22 +99,22 @@ export const adTechPillars: AdTechPillar[] = [
 	{
 		title: 'Header bidding',
 		body: 'Prebid.js wrappers, bidder adapters, timeouts and price granularity tuned for yield without tanking page speed.',
-		tags: ['Prebid.js', 'Price buckets', 'Lazy load & refresh'],
+		tags: ['Prebid.js', 'Prebid Server', 'Amazon TAM', 'Price buckets', 'Lazy load & refresh'],
 	},
 	{
 		title: 'Ad serving',
 		body: 'Google Ad Manager orders, line items and key-value targeting, with delivery checks that catch mistakes before they cost money.',
-		tags: ['Google Ad Manager', 'GPT', 'Key-values'],
+		tags: ['Google Ad Manager', 'AdX', 'GPT', 'Key-values', 'Delivery reporting'],
 	},
 	{
 		title: 'Privacy & consent',
 		body: 'CMP integrations that honour the user: IAB TCF v2.2, GPP and US opt-out signals, and Google Consent Mode, verified in a real browser.',
-		tags: ['TCF v2.2', 'GPP', 'Consent Mode'],
+		tags: ['TCF v2.2', 'GPP', 'Consent Mode', 'CMP integration', 'GDPR'],
 	},
 	{
 		title: 'Traffic quality',
 		body: 'Invalid-traffic investigations that separate real signal from noise, plus the analytics to prove a fix worked.',
-		tags: ['IVT analysis', 'Yield analytics', 'GA4'],
+		tags: ['IVT analysis', 'ads.txt & sellers.json', 'Assertive Yield', 'Yield analytics', 'GA4'],
 	},
 ];
 
