@@ -144,16 +144,16 @@ export default function FullStack() {
 											className='meter'
 											role='meter'
 											aria-valuemin={0}
-											aria-valuemax={5}
+											aria-valuemax={METER_SEGMENTS}
 											aria-valuenow={skill.level}
 											aria-label={`${skill.name} proficiency`}
 										>
 											{Array.from({ length: METER_SEGMENTS }, (_, seg) => (
 												<motion.span
 													key={seg}
-													className={seg < skill.level * 2 ? 'seg lit' : 'seg'}
+													className={seg < skill.level ? 'seg lit' : 'seg'}
 													initial={{ opacity: 0.15 }}
-													animate={{ opacity: seg < skill.level * 2 ? 1 : 0.15 }}
+													animate={{ opacity: seg < skill.level ? 1 : 0.15 }}
 													transition={{ delay: 0.15 + i * 0.06 + seg * 0.03 }}
 												/>
 											))}

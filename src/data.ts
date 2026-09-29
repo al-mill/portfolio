@@ -22,7 +22,7 @@ export type Station = {
 	skills: Skill[];
 };
 
-// Frequencies sit on the 88–108 FM dial; level is a 1–5 self-rating driving the VU meter.
+// Frequencies sit on the 88–108 FM dial; level is a 1–10 self-rating driving the VU meter.
 export const stations: Station[] = [
 	{
 		id: 'frontend',
@@ -30,12 +30,13 @@ export const stations: Station[] = [
 		label: 'Front-end FM',
 		tagline: 'Interfaces that feel as good as they look — fast, accessible, on-brand.',
 		skills: [
-			{ name: 'React', level: 5 },
-			{ name: 'Next.js', level: 5 },
-			{ name: 'TypeScript', level: 5 },
-			{ name: 'Tailwind CSS', level: 4 },
-			{ name: 'Framer Motion', level: 4 },
-			{ name: 'Core Web Vitals', level: 4 },
+			{ name: 'React', level: 10 },
+			{ name: 'Next.js', level: 10 },
+			{ name: 'TypeScript', level: 10 },
+			{ name: 'Tailwind CSS', level: 8 },
+			{ name: 'Vue', level: 8 },
+			{ name: 'Nuxt', level: 7 },
+			{ name: 'Core Web Vitals', level: 8 },
 		],
 	},
 	{
@@ -44,12 +45,12 @@ export const stations: Station[] = [
 		label: 'Back-end Boogie',
 		tagline: 'APIs and services that stay up when the traffic spikes.',
 		skills: [
-			{ name: 'Node.js', level: 5 },
-			{ name: 'Nitro / h3', level: 4 },
-			{ name: 'Express', level: 4 },
+			{ name: 'Node.js', level: 10 },
+			{ name: 'Nitro / h3', level: 8 },
+			{ name: 'Express', level: 8 },
 			{ name: 'Python / Flask', level: 4 },
 			{ name: 'Ruby on Rails', level: 3 },
-			{ name: 'REST & SDK design', level: 4 },
+			{ name: 'REST & SDK design', level: 10 },
 		],
 	},
 	{
@@ -58,11 +59,12 @@ export const stations: Station[] = [
 		label: 'Data Disco',
 		tagline: 'Schemas, search and SQL that answer the question behind the question.',
 		skills: [
-			{ name: 'PostgreSQL', level: 4 },
-			{ name: 'SQL', level: 5 },
-			{ name: 'OpenSearch', level: 3 },
-			{ name: 'BigQuery', level: 4 },
-			{ name: 'Alembic migrations', level: 3 },
+			{ name: 'PostgreSQL', level: 8 },
+			{ name: 'SQL', level: 10 },
+			{ name: 'OpenSearch', level: 6 },
+			{ name: 'BigQuery', level: 8 },
+			{ name: 'Migrations', level: 6 },
+			{ name: 'MongoDB', level: 6 },
 		],
 	},
 	{
@@ -71,11 +73,11 @@ export const stations: Station[] = [
 		label: 'Cloud Nine',
 		tagline: 'Edge to origin: infrastructure as code, deployed with confidence.',
 		skills: [
-			{ name: 'AWS / CDK', level: 4 },
-			{ name: 'Cloudflare', level: 4 },
-			{ name: 'GCP', level: 3 },
-			{ name: 'Docker', level: 4 },
-			{ name: 'Datadog', level: 4 },
+			{ name: 'AWS / CDK', level: 8 },
+			{ name: 'Cloudflare', level: 8 },
+			{ name: 'GCP', level: 6 },
+			{ name: 'Docker', level: 8 },
+			{ name: 'Datadog', level: 8 },
 		],
 	},
 	{
@@ -84,11 +86,11 @@ export const stations: Station[] = [
 		label: 'The Craft',
 		tagline: 'How the work gets done — tested, reviewed and shipped as a team.',
 		skills: [
-			{ name: 'pnpm / nx monorepos', level: 4 },
-			{ name: 'Playwright & Jest', level: 4 },
-			{ name: 'CI/CD', level: 4 },
-			{ name: 'Git', level: 5 },
-			{ name: 'Agile', level: 4 },
+			{ name: 'pnpm / nx monorepos', level: 8 },
+			{ name: 'Playwright & Jest', level: 8 },
+			{ name: 'CI/CD', level: 8 },
+			{ name: 'Git', level: 10 },
+			{ name: 'Agile', level: 8 },
 		],
 	},
 ];
