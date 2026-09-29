@@ -75,7 +75,7 @@ export const stations: Station[] = [
 		skills: [
 			{ name: 'AWS / CDK', level: 8 },
 			{ name: 'Cloudflare', level: 8 },
-			{ name: 'GCP', level: 6 },
+			{ name: 'GDPR', level: 6 },
 			{ name: 'Docker', level: 8 },
 			{ name: 'Datadog', level: 8 },
 		],
