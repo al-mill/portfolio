@@ -38,7 +38,7 @@ export default function Hero() {
 						animate={{ opacity: 1, y: 0 }}
 						transition={{ delay: 0.1 }}
 					>
-						Far out, you found me —
+						Oh hey there —
 					</motion.p>
 					<motion.h1
 						className='hero-name'
