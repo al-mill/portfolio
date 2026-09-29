@@ -1,3 +1,4 @@
+import wildshoot from './assets/wildshoot.svg';
 import whatsbrewing from './assets/whatsbrewing.jpg';
 import hungrydev from './assets/hungrydev.jpg';
 import interviewer from './assets/interviewer.jpg';
@@ -129,6 +130,15 @@ export type Project = {
 };
 
 export const projects: Project[] = [
+	{
+		title: 'Wild Shoot',
+		emoji: '📸',
+		kind: 'Photo app',
+		image: wildshoot,
+		blurb: 'Photo sharing with location tagging, running on the AWS free tier. Users upload photos, admins get analytics, and all the infrastructure is code.',
+		stack: ['Nuxt 3', 'Vue', 'AWS CDK', 'Lambda', 'PostgreSQL', 'Cognito'],
+		repo: 'https://github.com/al-mill/wildshoot',
+	},
 	{
 		title: "What's Brewin'",
 		emoji: '🍺',
