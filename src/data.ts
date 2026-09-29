@@ -104,7 +104,7 @@ export const adTechPillars: AdTechPillar[] = [
 	{
 		title: 'Ad serving',
 		body: 'Google Ad Manager orders, line items and key-value targeting, with delivery checks that catch mistakes before they cost money.',
-		tags: ['Google Ad Manager', 'AdX', 'GPT', 'Key-values', 'Delivery reporting'],
+		tags: ['Google Ad Manager', 'AdX', 'GPT', 'Key-values', 'Native', 'Delivery reporting'],
 	},
 	{
 		title: 'Privacy & consent',
