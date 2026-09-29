@@ -175,10 +175,6 @@ export default function AdTech() {
 			<div className='section-head'>
 				<p className='eyebrow'>Side B · Ad Tech</p>
 				<h2 className='section-title'>100 milliseconds of showbiz</h2>
-				<p className='section-lede'>
-					Every ad you see comes from a live auction that runs while the page loads. This is
-					the pipeline I build and debug. Set the conditions, press play, and watch it run.
-				</p>
 			</div>
 
 			<div className='sim'>
