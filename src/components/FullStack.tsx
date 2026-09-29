@@ -45,8 +45,7 @@ export default function FullStack() {
 				<p className='eyebrow'>Side A · Full Stack</p>
 				<h2 className='section-title'>Tune in to the stack</h2>
 				<p className='section-lede'>
-					Spin the dial, or pick a station, to hear what I play at every layer — from the
-					pixels in the browser to the servers in the cloud.
+					Spin the dial, or pick a station, to hear what I can play.
 				</p>
 			</div>
 
