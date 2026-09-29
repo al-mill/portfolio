@@ -1,6 +1,6 @@
 import wildshoot from './assets/wildshoot.svg';
 import whatsbrewing from './assets/whatsbrewing.jpg';
-import hungrydev from './assets/hungrydev.jpg';
+import hungrydev from './assets/hungrydev.svg';
 import interviewer from './assets/interviewer.jpg';
 import jungle from './assets/jungle.jpg';
 
