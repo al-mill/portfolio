@@ -49,6 +49,9 @@ export const stations: Station[] = [
 			{ name: 'Python / Flask', level: 4 },
 			{ name: 'Ruby on Rails', level: 3 },
 			{ name: 'REST & SDK design', level: 10 },
+			{ name: 'API design & architecture', level: 9 },
+			{ name: 'OAuth', level: 7 },
+			{ name: 'Payload CMS', level: 7 },
 		],
 	},
 	{
@@ -58,6 +61,7 @@ export const stations: Station[] = [
 		tagline: 'Schemas, search and SQL that answer the question behind the question.',
 		skills: [
 			{ name: 'PostgreSQL', level: 8 },
+			{ name: 'MySQL', level: 6 },
 			{ name: 'SQL', level: 10 },
 			{ name: 'OpenSearch', level: 6 },
 			{ name: 'BigQuery', level: 8 },
@@ -73,9 +77,10 @@ export const stations: Station[] = [
 		skills: [
 			{ name: 'AWS / CDK', level: 8 },
 			{ name: 'Cloudflare', level: 8 },
-			{ name: 'GDPR', level: 6 },
 			{ name: 'Docker', level: 8 },
 			{ name: 'Datadog', level: 8 },
+			{ name: 'Google Cloud Platform', level: 6 },
+			{ name: 'Multi-tenancy', level: 8 },
 		],
 	},
 	{
@@ -85,8 +90,9 @@ export const stations: Station[] = [
 		tagline: 'How the work gets done: tested, reviewed and shipped as a team.',
 		skills: [
 			{ name: 'pnpm / nx monorepos', level: 8 },
-			{ name: 'Playwright & Jest', level: 8 },
-			{ name: 'CI/CD', level: 8 },
+			{ name: 'Playwright, Jest & Vitest', level: 8 },
+			{ name: 'Storybook', level: 7 },
+			{ name: 'GitHub Actions CI/CD', level: 8 },
 			{ name: 'Git', level: 10 },
 			{ name: 'Agile', level: 8 },
 		],
@@ -99,7 +105,7 @@ export const adTechPillars: AdTechPillar[] = [
 	{
 		title: 'Header bidding',
 		body: 'Prebid.js wrappers, bidder adapters, timeouts and price granularity tuned for yield without tanking page speed.',
-		tags: ['Prebid.js', 'Assertive Yield', 'Prebid Server', 'OpenRTB', 'Amazon TAM', 'Price buckets', 'Lazy load & refresh'],
+		tags: ['Prebid.js', 'Assertive Yield', 'Prebid Server', 'OpenRTB', 'Amazon TAM', 'Price buckets', 'Lazy load & refresh', 'Yield optimization'],
 	},
 	{
 		title: 'Ad serving',
